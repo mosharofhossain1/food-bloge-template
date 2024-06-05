@@ -41,6 +41,9 @@ header{
 .header_barIcon:hover{
     background-color: #ccc;
 }
+.mail{
+    padding: 0px 15px;
+}
 .myFood h2, .mail h2{
     font-weight: normal;
     font-size: 20px;
@@ -120,8 +123,61 @@ header{
     font-style: italic;
 }
 .foodMandesc{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
-    opacity: .7;
+    opacity: .9;
+    margin-bottom: 60px;
 }
+
 /* food man about section end */
+
+/* footer section start */
+footer{
+    padding: 10px;
+}
+.footerDesc{
+    font-weight: normal;
+    font-size: 16px;
+}
+.footeDescTitle{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.footerDesc span{
+    margin-top: 10px;
+    display: inline-block;
+    opacity: .9;
+}
+.blogePostDetails{
+    display: flex;
+    margin: 10px 0px;
+}
+.blogeImg img{
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.bloogeTtitle{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+.popularTagTitle{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+ 
+.popularTags span{
+    background-color: #616161;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+    padding: 4px;
+}
+.popularTags .activetag{
+    background-color: black;
+    color: white;
+    padding: 7px;
+}

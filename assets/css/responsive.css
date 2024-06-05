@@ -24,4 +24,19 @@
         flex: 23%;
         margin-bottom: 30px;
     }
+     .footerDescContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 10px;
+     }
+     .footerDesc{
+        flex: 32%;
+     }
+     .footerBloogePost{
+        flex: 32%;
+     }
+     .footerpopularTags{
+        flex: 32%;
+     }
 }
