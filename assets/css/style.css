@@ -1,3 +1,51 @@
-body{
-    background-color: red;
+/* Deafult css style start */
+/* <a href="#">&laquo;</a>
+    <a href="#">&raquo;</a> */
+
+*,::after,::before,a,span,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type:none;
+    box-sizing: border-box;
 }
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+/* Deafult css style start */
+
+/* Header section start */
+header{
+    max-width: 1270px;
+    width: 100%;
+    background-color: white;
+    position:sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.headerContents{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    align-items: center;
+}
+.header_barIcon{
+    font-size: 20px;
+    padding: 20px;
+}
+.header_barIcon:hover{
+    background-color: #ccc;
+}
+.myFood h2, .mail h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+/* Header section end */
