@@ -1,6 +1,5 @@
 /* Deafult css style start */
-/* <a href="#">&laquo;</a>
-    <a href="#">&raquo;</a> */
+/*  */
 
 *,::after,::before,a,span,li{
     margin: 0;
@@ -23,18 +22,16 @@ body{
 
 /* Header section start */
 header{
-    max-width: 1270px;
-    width: 100%;
+    
     background-color: white;
     position:sticky;
-    width: 100%;
+     
     top: 0;
     left: 0;
 }
 .headerContents{
     display: flex;
-    justify-content: space-around;
-    padding: 20px 10px;
+    justify-content: space-between;
     align-items: center;
 }
 .header_barIcon{
@@ -49,3 +46,42 @@ header{
     font-size: 20px;
 }
 /* Header section end */
+
+/* Foods section style start */
+.foodsContainer{
+    padding: 10px;
+}
+
+.foodImg img{
+    width: 100%;
+    height: auto;
+}
+.food .foodTitle{
+    margin: 10px 0px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.food .foodDesc{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+.foodPagination{
+     width: 280px;
+    margin: 50px auto;
+}
+.foodPagination a{
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.activepagi{
+    background-color: black;
+    color: white;
+}
+.foodPagination a:hover{
+    background-color: black;
+    color:white;
+}
+/* Foods section style end */

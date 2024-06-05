@@ -1,0 +1,27 @@
+/* Mobile Device Responsive  */
+
+/* Tablet Device Responsive  */
+@media screen and (min-width: 577px) {
+    .foodsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    .food{
+        flex: 48%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Desktop Device responsive  */
+@media screen and (min-width: 768px) {
+    .foodsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    .food{
+        flex: 23%;
+        margin-bottom: 30px;
+    }
+}
