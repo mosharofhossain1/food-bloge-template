@@ -85,3 +85,43 @@ header{
     color:white;
 }
 /* Foods section style end */
+
+/* food man about section start */
+.foodManAbout{
+    padding: 10px;
+    margin: 30px 0px;
+}
+.hrarea{
+    color: gray;
+    height: 1px;
+    margin: 20px 0px;
+}
+.foodMandetails{
+    text-align: center;
+}
+.foodmanTitle{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0px;
+}
+.foodmanImg img{
+    max-width: 100%;
+    height: auto;
+}
+.foodMnabottomTile{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.foodManSubTitle{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px 0px;
+    font-style: italic;
+}
+.foodMandesc{
+    font-size: 16px;
+    line-height: 30px;
+    opacity: .7;
+}
+/* food man about section end */
